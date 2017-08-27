@@ -1,3 +1,3 @@
-# playground
+# Sass/Gulp Boilerplate
 
-* nothing to see here. Just brushing up on Sass and CSS
+* Basic Boilerplate made for learning purposes. Feel free to use.
