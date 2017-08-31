@@ -1,10 +1,18 @@
 const gulp          = require('gulp');
-const browserSync   = require('browser-sync').create();
+const autoprefixer  = require('gulp-autoprefixer')
+const cssMin        = require('gulp-cssmin');
 const sass          = require('gulp-sass');
+const browserSync   = require('browser-sync').create();
+
 
 gulp.task('sass', function() {
     return gulp.src(['src/scss/*.scss'])
         .pipe(sass())
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+          }))
+        .pipe(cssMin())
         .pipe(gulp.dest('src/css'))
         .pipe(browserSync.stream());
 });
