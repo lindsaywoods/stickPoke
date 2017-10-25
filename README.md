@@ -1,14 +1,14 @@
 # A simple Sass/Gulp Boilerplate
 
-## Quickly get started on any Sass project plus a live reloader for faster development
+## Quickly get started on any Sass project w/ a live reloader to speed up your workflow
 
 ### Instructions
 
 * Clone repo - `git clone https://github.com/mikengu/Sass-Gulp-Boilerplate.git`
-* Run `npm install`
-* Navigate to the `scss` folder and start your Sass project in `styles.scss` or create your own Sass file structure
-* Run `npm start` and a `css` folder with a `style.css` file will be generated with the compiled css code
-* Everytime you save, the css code and the browser will automatically update
+* In your terminal run `npm install`
+* Navigate to the `src/scss` folder and start your Sass project in `src/scss/styles.scss`
+* To generate `style.css` type in `npm start` in you terminal and a CSS folder with your compiled CSS will be made
+* Now everytime you save, the css code and the browser will automatically update
 * To turn off the live server press `ctrl + c` in terminal
 
 ### Content
@@ -18,3 +18,7 @@
 * Gulp-CSSMin
 * Sass
 * Browsersync for live reloading
+
+### Contact
+
+* If you need help please feel free to email me at mikengu01@gmail.com
