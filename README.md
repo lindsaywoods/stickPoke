@@ -1,6 +1,6 @@
 # A simple Sass/Gulp Boilerplate
 
-## Quickly get started on any Sass project w/ a live reloader to speed up your workflow
+## Quickly get started on any Sass project with this gulp boilerplate plus live reloading for your browser
 
 ### Instructions
 
