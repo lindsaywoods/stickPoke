@@ -1,6 +1,6 @@
 {
   "name": "sass-gulp-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sass/Gulp Boilerplate",
   "main": "gulpfile.js",
   "scripts": {
@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/mikengu/Sass-Gulp-Boilerplate#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-cssmin": "^0.2.0",
-    "gulp-sass": "^3.1.0"
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-cssmin": "*",
+    "gulp-sass": "*"
   }
 }
