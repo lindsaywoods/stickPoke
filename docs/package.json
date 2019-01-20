@@ -1,0 +1,26 @@
+{
+  "name": "sass-gulp-boilerplate",
+  "version": "1.0.1",
+  "description": "Sass/Gulp Boilerplate",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  // "repository": {
+  //   "type": "git",
+  //   "url": "git+https://github.com/mikengu/Sass-Gulp-Boilerplate.git"
+  // },
+  // "author": "Mike Ngu",
+  // "license": "ISC",
+  // "bugs": {
+  //   "url": "https://github.com/mikengu/Sass-Gulp-Boilerplate/issues"
+  // },
+  // "homepage": "https://github.com/mikengu/Sass-Gulp-Boilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-cssmin": "*",
+    "gulp-sass": "*"
+  }
+}
