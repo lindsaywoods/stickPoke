@@ -27,9 +27,7 @@ app.randomBanner = (bannerWord) => {
   $(".bannerall").addClass(rando);
   $(".bannerall").addClass("bannerafter");
   $(".formcontainer").addClass("moveform");
-  // $(".footerhide").toggle();
-  // $("footer").removeClass("hide");
-  // $("footer").addClass("footerhide");
+  $(".resultsall").addClass("resultsbackground");
   $('div.bannerall').text(bannerWord + randomWords[randomWordIndex])
 }
 
@@ -44,12 +42,9 @@ app.newIcon = (query) => {
       })
     }
   }).then(function (response) {
-    // console.log(response);
     // create variable to randomize the object selected out of the returned array
     const random = response.icons[Math.floor(Math.random() * response.icons.length)]
-    console.log(random)
     let image = random.preview_url;
-    console.log(image);
     $(".results").html(`<img src= ${image}>`);
   });
 }
